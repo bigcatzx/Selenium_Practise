@@ -22,3 +22,5 @@ for index in range(200):
 # 打印警告框提示
 success_text = driver.switch_to.alert.text
 print(success_text)
+
+driver.quit()
